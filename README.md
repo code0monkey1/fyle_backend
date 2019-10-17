@@ -7,7 +7,7 @@ DONE!
 ----
 
 jwt token generation call : 
-<img src="images/authentication.jpg" width="300" >
+<img src="images/authentication.jpg" length="300" width="300" >
 ---------------------------------------------------
 Curl command to get the jwt authenticatin token :
 ----------------------------------------------------
