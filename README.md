@@ -8,11 +8,11 @@ DONE!
 
 jwt token generation call : 
   
--------------------------------------------------------------------
+
 <img src="images/authentication.jpg" height="600" width="600" >
----------------------------------------------------
+
 Curl command to get the jwt authenticatin token :
-----------------------------------------------------
+
 curl -X POST \
   http://fylebacken.herokuapp.com/bankdetails/authenticate \
   -H 'Accept: */*' \
@@ -31,7 +31,7 @@ curl -X POST \
 }'
 
 2.GET API to fetch a bank details, given branch IFSC code
---------------------------------------------------------------------
+
 Curl command to get the Brach as per the IFSC code : ( does not work , as remote database not connected )
 <img src="images/ifsc.jpg" height="600" width="600" >
 curl -X GET \
@@ -47,15 +47,14 @@ curl -X GET \
   -H 'User-Agent: PostmanRuntime/7.18.0' \
   -H 'cache-control: no-cache'
   
-  -------------------------------------------------------------------- 
+
  3.GET API to fetch all details of branches, given bank name and a city. This API should also support limit and offset parameters 
   Curl command to get bank details as per the bank name and city 
   //run locally ( run locally on system using postGreSql)
-  --------------------------------------------------------------------
+
   
   <img src="images/name_and_city.jpg" height="600" width="600" >
-  
-  -------------------------------------------------------------------
+
   curl -X GET \
   'http://localhost:8080/bankdetails/bankNameAndCity?bank_name=ALLAHABAD%20BANK&city=HYDERABAD&offset=1&limit=5' \
   -H 'Accept: */*' \
@@ -67,7 +66,7 @@ curl -X GET \
   -H 'Postman-Token: 3499704c-4f69-4c7b-be59-3cf59b0b2127,c6c16324-0be9-4f5d-a957-5a01ab9434b2' \
   -H 'User-Agent: PostmanRuntime/7.18.0' \
   -H 'cache-control: no-cache'
-  --------------------------------------------------------------------
+
   4.APIs should be authenticated using a JWT key, with validity = 5 days
 
   JWT Token with 5 day validity :
