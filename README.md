@@ -7,6 +7,8 @@ DONE!
 ----
 
 jwt token generation call : 
+  
+-------------------------------------------------------------------
 <img src="images/authentication.jpg" height="600" width="600" >
 ---------------------------------------------------
 Curl command to get the jwt authenticatin token :
@@ -52,6 +54,8 @@ curl -X GET \
   --------------------------------------------------------------------
   
   <img src="images/name_and_city.jpg" height="600" width="600" >
+  
+  -------------------------------------------------------------------
   curl -X GET \
   'http://localhost:8080/bankdetails/bankNameAndCity?bank_name=ALLAHABAD%20BANK&city=HYDERABAD&offset=1&limit=5' \
   -H 'Accept: */*' \
@@ -65,8 +69,8 @@ curl -X GET \
   -H 'cache-control: no-cache'
   --------------------------------------------------------------------
   4.APIs should be authenticated using a JWT key, with validity = 5 days
-  ------------------------------------------------
+
   JWT Token with 5 day validity :
- ----------------------------------------------------------------
+
   eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmeWxlIiwiZXhwIjoxNTcxNjczNzI5LCJpYXQiOjE1NzEyNDE3Mjl9.8JoipCq1JeU_gKs-FmrcHNKeh0uLTvyvRE6z_Qk22xKHOuI4aj0JahqLzE7VCj1HtQ63pKJDrOvXG3QchvqK8g
 
