@@ -9,7 +9,7 @@ DONE!
 jwt token generation call : 
   
 
-<img src="images/authentication.jpg" height="600" width="600" >
+<img src="images/authentication.jpg" height="600" width="1000" >
 
 Curl command to get the jwt authenticatin token :
 
