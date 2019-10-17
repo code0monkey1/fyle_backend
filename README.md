@@ -33,7 +33,7 @@ curl -X POST \
 2.GET API to fetch a bank details, given branch IFSC code
 
 Curl command to get the Brach as per the IFSC code : ( does not work , as remote database not connected )
-<img src="images/ifsc.jpg" height="600" width="600" >
+<img src="images/ifsc.jpg" height="600" width="1000" >
 curl -X GET \
   'http://fylebacken.herokuapp.com/bankdetails?bankIfsc=ABHY0065001' \
   -H 'Accept: */*' \
@@ -53,7 +53,7 @@ curl -X GET \
   //run locally ( run locally on system using postGreSql)
 
   
-  <img src="images/name_and_city.jpg" height="600" width="600" >
+  <img src="images/name_and_city.jpg" height="600" width="1000" >
 
   curl -X GET \
   'http://localhost:8080/bankdetails/bankNameAndCity?bank_name=ALLAHABAD%20BANK&city=HYDERABAD&offset=1&limit=5' \
