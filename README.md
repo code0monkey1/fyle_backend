@@ -34,7 +34,7 @@ curl -X POST \
 
 2.GET API to fetch a bank details, given branch IFSC code
 
-Curl command to get the Brach as per the IFSC code : ( does not work , as remote database not connected )
+Curl command to get the Brach as per the IFSC code : 
 curl -X GET \
   'https://fylebacken.herokuapp.com/bankdetails/bankIfsc?ifsc=ABHY0065001' \
   -H 'Accept: */*' \
