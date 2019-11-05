@@ -2,6 +2,7 @@
 Fyle backend assignment 
 Deliverables : 
 --------------
+Heroku Hosting : https://fylebacken.herokuapp.com/
 --------------
 1.use PostgreSQL as a backend database
 DONE!
