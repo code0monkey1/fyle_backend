@@ -15,8 +15,7 @@ jwt token generation call :
 
 Curl command to get the jwt authenticatin token :
 
-curl -X POST \
-  http://fylebacken.herokuapp.com/bankdetails/authenticate \
+curl -X POST \http://fylebacken.herokuapp.com/bankdetails/authenticate \
   -H 'Accept: */*' \
   -H 'Accept-Encoding: gzip, deflate' \
   -H 'Cache-Control: no-cache' \
@@ -37,8 +36,7 @@ curl -X POST \
 Curl command to get the Brach as per the IFSC code : 
 
 
-curl -X GET \
-  'https://fylebacken.herokuapp.com/bankdetails/bankIfsc?ifsc=ABHY0065001' \
+curl -X GET \'https://fylebacken.herokuapp.com/bankdetails/bankIfsc?ifsc=ABHY0065001' \
   -H 'Accept: */*' \
   -H 'Accept-Encoding: gzip, deflate' \
   -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmeWxlIiwiZXhwIjoxNTczMzk3Njc0LCJpYXQiOjE1NzI5NjU2NzR9.VjTcPtqt7MvhzojREyRO0LysrxRmoRLnfeJMIqr3ek811fFjb0-HWffCvyIMGMmH1dVZ8f5ELudLbfbcTwYM9Q' \
@@ -60,7 +58,7 @@ curl -X GET \
   Curl command to get bank details as per the bank name and city 
   
   
- curl -X GET \
+curl -X GET \
   'https://fylebacken.herokuapp.com/bankdetails/bankNameAndCity?bank_name=ALLAHABAD%20BANK&city=HYDERABAD&offset=1&limit=5' \
   -H 'Accept: */*' \
   -H 'Accept-Encoding: gzip, deflate' \
@@ -70,7 +68,7 @@ curl -X GET \
   -H 'Content-Length: 40' \
   -H 'Content-Type: application/json' \
   -H 'Host: fylebacken.herokuapp.com' \
-  -H 'Postman-Token: f202684a-10a1-4088-8831-73b172c3262f,085dfaa8-d53c-4d90-999b-a3c06fef3bf8' \
+  -H 'Postman-Token: 29ab2dd5-5a4d-4829-8393-e9261698290b,cdb0f046-7aa1-41cd-aa9d-428570502703' \
   -H 'User-Agent: PostmanRuntime/7.19.0' \
   -H 'cache-control: no-cache' \
   -d '{
