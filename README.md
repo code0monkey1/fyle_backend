@@ -42,7 +42,8 @@ Curl command to get the Brach as per the IFSC code :
 
 --------------------------
 ```
-curl -X GET \'https://fylebacken.herokuapp.com/bankdetails/bankIfsc?ifsc=ABHY0065001' \
+curl -X GET \
+  'https://fylebacken.herokuapp.com/bankdetails/bankIfsc?ifsc=ABHY0065002' \
   -H 'Accept: */*' \
   -H 'Accept-Encoding: gzip, deflate' \
   -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmeWxlIiwiZXhwIjoxNTczMzk3Njc0LCJpYXQiOjE1NzI5NjU2NzR9.VjTcPtqt7MvhzojREyRO0LysrxRmoRLnfeJMIqr3ek811fFjb0-HWffCvyIMGMmH1dVZ8f5ELudLbfbcTwYM9Q' \
@@ -51,13 +52,14 @@ curl -X GET \'https://fylebacken.herokuapp.com/bankdetails/bankIfsc?ifsc=ABHY006
   -H 'Content-Length: 40' \
   -H 'Content-Type: application/json' \
   -H 'Host: fylebacken.herokuapp.com' \
-  -H 'Postman-Token: dc238209-607d-4461-97e3-74842fa8d0b7,ce92f2c7-4d39-4f10-a7e9-78d45e00f4a5' \
+  -H 'Postman-Token: 33f551b7-4eee-4fc2-a911-baba7f2de51d,806a102c-f755-4666-9c60-8dca40771e2c' \
   -H 'User-Agent: PostmanRuntime/7.19.0' \
   -H 'cache-control: no-cache' \
   -d '{
 "username":"fyle",
 "password":"fyle"
 }'
+
 ```
 --------------------------  
 
