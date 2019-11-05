@@ -35,6 +35,8 @@ curl -X POST \
 2.GET API to fetch a bank details, given branch IFSC code
 
 Curl command to get the Brach as per the IFSC code : 
+
+
 curl -X GET \
   'https://fylebacken.herokuapp.com/bankdetails/bankIfsc?ifsc=ABHY0065001' \
   -H 'Accept: */*' \
@@ -56,6 +58,8 @@ curl -X GET \
 
  3.GET API to fetch all details of branches, given bank name and a city. This API should also support limit and offset parameters 
   Curl command to get bank details as per the bank name and city 
+  
+  
  curl -X GET \
   'https://fylebacken.herokuapp.com/bankdetails/bankNameAndCity?bank_name=ALLAHABAD%20BANK&city=HYDERABAD&offset=1&limit=5' \
   -H 'Accept: */*' \
