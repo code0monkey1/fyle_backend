@@ -89,5 +89,7 @@ curl -X GET \
   4.APIs should be authenticated using a JWT key, with validity = 5 days
 
   JWT Token with 5 day validity :
-
+```
  eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmeWxlIiwiZXhwIjoxNTczMzk3Njc0LCJpYXQiOjE1NzI5NjU2NzR9.VjTcPtqt7MvhzojREyRO0LysrxRmoRLnfeJMIqr3ek811fFjb0-HWffCvyIMGMmH1dVZ8f5ELudLbfbcTwYM9Q
+ 
+ ```
