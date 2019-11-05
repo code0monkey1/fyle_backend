@@ -15,16 +15,18 @@ jwt token generation call :
 
 Curl command to get the jwt authenticatin token :
 
-curl -X POST \http://fylebacken.herokuapp.com/bankdetails/authenticate \
+curl -X POST \
+  https://fylebacken.herokuapp.com/bankdetails/authenticate \
   -H 'Accept: */*' \
   -H 'Accept-Encoding: gzip, deflate' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmeWxlIiwiZXhwIjoxNTczMzk3Njc0LCJpYXQiOjE1NzI5NjU2NzR9.VjTcPtqt7MvhzojREyRO0LysrxRmoRLnfeJMIqr3ek811fFjb0-HWffCvyIMGMmH1dVZ8f5ELudLbfbcTwYM9Q' \
   -H 'Cache-Control: no-cache' \
   -H 'Connection: keep-alive' \
   -H 'Content-Length: 40' \
   -H 'Content-Type: application/json' \
   -H 'Host: fylebacken.herokuapp.com' \
-  -H 'Postman-Token: 733d7e81-26ce-4c02-a880-108497f8c625,00610e56-ab04-46cf-ab2e-33a0d51b61d8' \
-  -H 'User-Agent: PostmanRuntime/7.18.0' \
+  -H 'Postman-Token: b478df13-9902-4b7b-902f-cf4ba03644e1,2f97e842-5fb7-49f3-8a0a-acaac8c187ef' \
+  -H 'User-Agent: PostmanRuntime/7.19.0' \
   -H 'cache-control: no-cache' \
   -d '{
 "username":"fyle",
