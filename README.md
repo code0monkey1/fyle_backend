@@ -1,7 +1,7 @@
 # fyle_backend
 Fyle backend assignment 
 Deliverables : 
-<img src="images/Fyle.jpg" height="600" width="1000" >
+<img src="images/Fyle.jpg" height="300" width="500" >
 --------------
 Heroku Hosting : https://fylebacken.herokuapp.com/
 --------------
